@@ -1645,7 +1645,7 @@
 }
  .our-team img{
      width: 100%;
-     height: auto;
+     height: 350px;
      transition: all 0.3s ease-in-out 0s;
 }
  .our-team:hover img{
@@ -2597,12 +2597,10 @@
 	padding: 12px 25px;
 	border: none;
 }
-
-
-
-
-
-
+.img-fluid{
+    height: 250px;
+    width: 100%;
+}
 
 
 

@@ -43,7 +43,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					
                     <div class="right-phone-box">
-                        <p>Call US :- <a href="#"> +254 900 800 100</a></p>
+                        <p>Call US :- <a href="#"> + 254719657770</a></p>
                     </div>
                     <div class="our-link">
                         <ul>
@@ -123,7 +123,7 @@
 								<li><a href="cart.html">Cart</a></li>
 								<li><a href="checkout.html">Checkout</a></li>
 								<li><a href="my-account.html">My Account</a></li>
-								<li><a href="wishlist.html">Wishlist</a></li>
+								<li><a href="#">Subscription</a></li>
 							</ul>
 						</li>
 						<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
@@ -195,10 +195,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Wishlist</h2>
+                    <h2>Subscription</h2>
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">Shop</a></li>
-                        <li class="breadcrumb-item active">Wishlist</li>
+                        <li class="breadcrumb-item active">Subscription</li>
                     </ul>
                 </div>
             </div>
@@ -218,8 +218,9 @@
                                     <th>Images</th>
                                     <th>Product Name</th>
                                     <th>Unit Price </th>
+                                    <th>Quantity (Kgs)</th>
+                                    <th>Plan</th>
                                     <th>Stock</th>
-                                    <th>Add Item</th>
                                     <th>Remove</th>
                                 </tr>
                             </thead>
@@ -232,16 +233,26 @@
                                     </td>
                                     <td class="name-pr">
                                         <a href="#">
-									Lorem ipsum dolor sit amet
+									Carrots
 								</a>
                                     </td>
                                     <td class="price-pr">
                                         <p>$ 80.0</p>
                                     </td>
-                                    <td class="quantity-box">In Stock</td>
-                                    <td class="add-pr">
-                                        <a class="btn hvr-hover" href="#">Add to Cart</a>
+                                    <td>
+                                        <div class="mb-3">
+                                            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="1">
+                                        </div>
                                     </td>
+                                    <td>
+                                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                            <option selected>Plan</option>
+                                            <option value="1">Daily</option>
+                                            <option value="2">Weekly</option>
+                                            <option value="3">Monthly</option>
+                                        </select>
+                                    </td>
+                                    <td class="quantity-box">In Stock</td>
                                     <td class="remove-pr">
                                         <a href="#">
 									<i class="fas fa-times"></i>
@@ -256,16 +267,26 @@
                                     </td>
                                     <td class="name-pr">
                                         <a href="#">
-									Lorem ipsum dolor sit amet
+									Tomatoes
 								</a>
                                     </td>
                                     <td class="price-pr">
                                         <p>$ 60.0</p>
                                     </td>
-                                    <td class="quantity-box">In Stock</td>
-                                    <td class="add-pr">
-                                        <a class="btn hvr-hover" href="#">Add to Cart</a>
+                                    <td>
+                                        <div class="mb-3">
+                                            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="1">
+                                        </div>
                                     </td>
+                                    <td>
+                                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                            <option selected>Plan</option>
+                                            <option value="1">Daily</option>
+                                            <option value="2">Weekly</option>
+                                            <option value="3">Monthly</option>
+                                        </select>
+                                    </td>
+                                    <td class="quantity-box">In Stock</td>
                                     <td class="remove-pr">
                                         <a href="#">
 									<i class="fas fa-times"></i>
@@ -280,16 +301,26 @@
                                     </td>
                                     <td class="name-pr">
                                         <a href="#">
-									Lorem ipsum dolor sit amet
+									Grapes
 								</a>
                                     </td>
                                     <td class="price-pr">
                                         <p>$ 30.0</p>
                                     </td>
-                                    <td class="quantity-box">In Stock</td>
-                                    <td class="add-pr">
-                                        <a class="btn hvr-hover" href="#">Add to Cart</a>
+                                    <td>
+                                        <div class="mb-3">
+                                            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="1">
+                                        </div>
                                     </td>
+                                    <td>
+                                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                            <option selected>Plan</option>
+                                            <option value="1">Daily</option>
+                                            <option value="2">Weekly</option>
+                                            <option value="3">Monthly</option>
+                                        </select>
+                                    </td>
+                                    <td class="quantity-box">In Stock</td>
                                     <td class="remove-pr">
                                         <a href="#">
 									<i class="fas fa-times"></i>
@@ -298,7 +329,14 @@
                                 </tr>
                             </tbody>
                         </table>
+                        
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-9"></div>
+                <div class="col-md-3">
+                    <a class="btn hvr-hover add-pr btm" href="#">Subscribe</a>
                 </div>
             </div>
         </div>
@@ -393,8 +431,8 @@
     <!-- End Instagram Feed  -->
 
 
-    <!-- Start Footer  -->
-    <footer>
+     <!-- Start Footer  -->
+     <footer>
         <div class="footer-main">
             <div class="container">
 				<div class="row">
@@ -439,8 +477,7 @@
                     <div class="col-lg-4 col-md-12 col-sm-12">
                         <div class="footer-widget">
                             <h4>About iGrocer</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> 							
+                            <p>We ensure you get your groceries conviniently <br> and provide you with efficient planning and budgeting tools.</p> 							
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12">
@@ -461,13 +498,13 @@
                             <h4>Contact Us</h4>
                             <ul>
                                 <li>
-                                    <p><i class="fas fa-map-marker-alt"></i>Address: Michael I. Days 3756 <br>Preston Street Wichita,<br> KS 67213 </p>
+                                    <p><i class="fas fa-map-marker-alt"></i>Address: iGrocer Building <br> Nairobi - Kenya</p>
                                 </li>
                                 <li>
-                                    <p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+1-888705770">+254 888 705 770</a></p>
+                                    <p><i class="fas fa-phone-square"></i>Phone: <a href="+254719657770">+ 254719657770</a></p>
                                 </li>
                                 <li>
-                                    <p><i class="fas fa-envelope"></i>Email: <a href="mailto:contactinfo@gmail.com">contactinfo@gmail.com</a></p>
+                                    <p><i class="fas fa-envelope"></i>Email: <a href="igrocer@gmail.com">igrocer@gmail.com</a></p>
                                 </li>
                             </ul>
                         </div>
@@ -481,7 +518,7 @@
     <!-- Start copyright  -->
     <div class="footer-copyright">
         <p class="footer-company">All Rights Reserved. &copy; 2021: Design By :
-            <a href="">Nyururu</a></p>
+            <a href=""> iGrocer</a></p>
     </div>
     <!-- End copyright  -->
 
