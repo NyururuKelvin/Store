@@ -2601,7 +2601,10 @@
     height: 250px;
     width: 100%;
 }
-
+.fluid{
+    width: 60px;
+    height: 60px;
+}
 
 
 
